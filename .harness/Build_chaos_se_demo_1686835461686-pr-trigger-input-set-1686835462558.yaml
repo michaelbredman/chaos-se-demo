@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chaos_se_demo_1686835461686-pr-trigger-input-set
+  identifier: Build_chaos_se_demo_1686835461686prtriggerinputset
+  orgIdentifier: SE_Sandbox
+  projectIdentifier: Redman_Sandbox
+  pipeline:
+    identifier: Build_chaos_se_demo_1686835461686
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
